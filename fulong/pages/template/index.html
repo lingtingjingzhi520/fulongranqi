@@ -17,7 +17,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<header class="aui-header">				
+			<!-- <header class="aui-header">				
 				<div class="aui-header-title" style="left: 15px;">模板</div>
 			</header>
 			<div class="aui-content">
@@ -103,12 +103,16 @@
 						<div class="aui-grid-text">红包雨</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
+			<header class="aui-header">
+				<a class="aui-header-left" onclick="aui.closeWin()"><i class="iconfont iconreturn"></i></a>
+				<div class="aui-header-title" style="font-size: 15px;">安检</div>
+			</header>
 			<footer class="aui-footer row-before">
-				<div class="aui-footer-list" onclick="aui.openWin('../../index.html')"><i class="iconfont iconapi"></i><p>接口</p></div>
-				<div class="aui-footer-list" onclick="aui.openWin('../ui/index.html')"><i class="iconfont iconui"></i><p>组件</p></div>
-				<div class="aui-footer-list active" onclick="aui.openWin('index.html')"><i class="iconfont icontamplate"></i><p>模板</p></div>
-				<a class="aui-footer-list" target="_blank" href="https://www.kancloud.cn/chen-wanchun/aui-js"><i class="iconfont icondoc"></i><p>文档</p></a>
+				<div class="aui-footer-list" onclick="aui.openWin('../../index.html')"><i class="iconfont iconapi"></i><p>首页</p></div>
+				<div class="aui-footer-list" onclick="aui.openWin('../../pages/ui/index.html')"><i class="iconfont iconui"></i><p>订单</p></div>
+				<div class="aui-footer-list active" onclick="aui.openWin('index.html')"><i class="iconfont icontamplate"></i><p>安检</p></div>
+				<div class="aui-footer-list" onclick="aui.openWin('../../pages/mypage/index.html')"><i class="iconfont icontamplate"></i><p>我的</p></div>
 			</footer>
 		</div>
 	</body>

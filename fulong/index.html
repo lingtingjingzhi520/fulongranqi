@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>欢迎来到富龙燃气</title>
+		<link rel="stylesheet" type="text/css" href="static/css/aui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="static/css/aui.popover.css"/>
+		<link rel="stylesheet" href="lib/swiper/swiper.min.css">
+		<script type="text/javascript" src="static/js/aui.min.js"></script>		
+		<script type="text/javascript" src="static/js/aui.popover.js"></script>
+		<script type="text/javascript" src="static/js/swiper.min.js"></script>
+		<style type="text/css">
+			.aui-content{padding: 0 0 55px 0;}
+			.content-top{width: 100%; padding: 4px; box-sizing: border-box;}
+			.content-top h2{width: 100%; line-height: 40px; font-size: 18px; color: #333;}
+			.content-top p{width: 100%; line-height: 20px; font-size: 13px; color: #888;}
+			.swiper-container {
+				width: 100%;
+				height: 100%;
+				
+			}
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+			.lunbotu{
+				width: 100%;
+				height: 200px;
+			}
+			.dinggou{
+				width: 100%;
+				height: 17%;
+			}
+			.dinggou-left{
+				width: 30%;
+				float: left;
+				margin-left:25px;
+			}
+			.dinggou-left>p{
+				font-size: 30px;
+				color: cornflowerblue;
+				padding-top: 20px;
+				padding-left: 20px;
+				padding-bottom: 10px;
+				
+			}
+			.dinggou-left>i{
+				margin: 20px;
+				font-style: normal;
+				background-color: gainsboro;
+				border-radius: 2px;
+			}
+			.dinggou-center{
+				float: left;
+				width: 30%;
+			}
+			.mqg{
+				width: 80px;
+				height: 100px;
+			}
+			.ljdg{
+				width: 100px;
+			}
+			.yydg{
+				width: 100px;
+				background:sandybrown;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header class="aui-header">
+				<!--<a class="aui-header-left" onclick="aui.closeWin()"><i class="iconfont iconreturn"></i></a>-->
+				<div class="aui-header-title" style="left: 15px;">富龙燃气欢迎您</div>
+				<a class="aui-header-right" onclick=""><i class="iconfont iconother"></i></a>
+			</header>
+			<div class="aui-content">
+				<div class="content-top">
+						<div class="swiper-container">
+						        <div class="swiper-wrapper">
+						            <div class="swiper-slide"><img class="lunbotu" src="static/img/image/lunbotu.png"/></div>
+						            <div class="swiper-slide"><img class="lunbotu" src="static/img/image/lunbotu.png"/></div>
+						            <div class="swiper-slide"><img class="lunbotu" src="static/img/image/lunbotu.png"/></div>
+						        </div>
+						        <!-- Add Pagination -->
+						        <div class="swiper-pagination"></div>  
+						    </div>
+				</div>
+				
+				<div class="aui-card">
+					<div class="aui-card-title"><span class="aui-card-title-line"></span>公告</div>
+					<div class="aui-card-main" style="padding: 10px 0;">
+						<div class="aui-noticebar aui-noticebar-row">
+							<div class="aui-noticebar-main">
+								<div class="aui-noticebar-center">
+									<div class="aui-noticebar-texts">
+										<p class="aui-noticebar-text">这是一段公告：公告1</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="aui-noticebar aui-noticebar-row">
+							<div class="aui-noticebar-main">
+								<div class="aui-noticebar-left"><i class="iconfont iconsystemprompt"></i></div>
+								<div class="aui-noticebar-center">
+									<div class="aui-noticebar-texts">
+										<p class="aui-noticebar-text">这是一段公告：公告2</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dinggou">
+					<div class="dinggou-left">
+						<p>13kg</p>
+						<i>下单可配送</i>
+					</div>
+					<div class="dinggou-center">
+						<img class="mqg" src="./static/img/mqg.jpg" alt="富龙燃气罐">
+					</div>
+					<div class="dinggou-right">
+						<button class="aui-btn ljdg">立即订购</button>
+						<button class="aui-btn yydg">预约订购</button>
+					</div>
+				</div>
+				<ul class="aui-lists">
+					<div class="aui-card-title"><span class="aui-card-title-line"></span>用气安全</div>
+					<a style="display: block;" class="aui-list" target="_blank" href="https://mp.weixin.qq.com/s/S5s4jCCgq9tJDYOjCx270Q">
+						<div class="aui-list-left">
+							瓶装液化石油气安全使用常识
+						</div>
+						<div class="aui-list-right"><i class="iconfont aui-btn-right iconright1"></i></div>
+					</a>
+					<a style="display: block;" class="aui-list" target="_blank" href="https://mp.weixin.qq.com/s/S5s4jCCgq9tJDYOjCx270Q">
+						<div class="aui-list-left">
+							餐饮服务业用户燃气安全使用常识
+						</div>
+						<div class="aui-list-right"><i class="iconfont aui-btn-right iconright1"></i></div>
+					</a>
+					<a style="display: block;" class="aui-list" target="_blank" href="https://mp.weixin.qq.com/s/S5s4jCCgq9tJDYOjCx270Q">
+						<div class="aui-list-left">
+							抗击疫情，不忘燃气安全
+						</div>
+						<div class="aui-list-right"><i class="iconfont aui-btn-right iconright1"></i></div>
+					</a>
+					<a style="display: block;" class="aui-list" target="_blank" href="https://mp.weixin.qq.com/s/S5s4jCCgq9tJDYOjCx270Q">
+						<div class="aui-list-left">
+							燃气安全|很重要，特别重要
+						</div>
+						<div class="aui-list-right"><i class="iconfont aui-btn-right iconright1"></i></div>
+					</a>
+				</ul>
+			</div>
+			
+			<footer class="aui-footer row-before">
+				<div class="aui-footer-list active" onclick="aui.openWin('index.html')"><i class="iconfont iconapi"></i><p>首页</p></div>
+				<div class="aui-footer-list" onclick="aui.openWin('pages/ui/index.html')"><i class="iconfont iconui"></i><p>订单</p></div>
+				<div class="aui-footer-list" onclick="aui.openWin('pages/template/index.html')"><i class="iconfont icontamplate"></i><p>安检</p></div>
+				<div class="aui-footer-list" onclick="aui.openWin('pages/mypage/index.html')"><i class="iconfont icontamplate"></i><p>我的</p></div>
+				<!-- <a class="aui-footer-list" target="_blank" href="https://www.kancloud.cn/chen-wanchun/aui-js"><i class="iconfont icondoc"></i><p>文档</p></a> -->
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript">		
+		window.addEventListener("load", function(){			
+			var lists = document.querySelectorAll(".aui-list");
+			for(var i = 0; i < lists.length; i++){
+				aui.touchDom(lists[i], "#EFEFEF");
+			}
+			//打开菜单弹窗(右上角——>按钮下方)
+			document.querySelector(".aui-header-right").addEventListener("click", function(){
+				aui.popover.open({
+					warp: '.aui-header-right',
+					items: [
+						{name: '订单', icon: 'iconchakan-yunpan', iconColor: '#8BC34A'},
+						{name: '安检', icon: 'iconGit', iconColor: '#909090'},
+						{name: '我的账户', icon: 'iconcsdn', iconColor: '#d81e06'},
+						{name: '生成二维码', icon: 'iconerweima', iconColor: '#12986D'},
+					],
+					mask: true,
+					location: 'bottom'
+				},function(ret){
+					//console.log(ret);
+					switch (ret.index){
+						case 0:
+							aui.openWin('https://www.kancloud.cn/chen-wanchun/aui-js');
+							break;
+						case 1:
+							aui.openWin('https://github.com/aui-js/aui');
+							break;
+						case 2:
+							aui.openWin('https://me.csdn.net/weixin_43838488');
+							break;
+						case 3:
+							aui.openWin('pages/template/qrcode/QRCode.html');
+							break;
+						default:
+							aui.toast({msg: ret.el.querySelector("span").innerHTML});
+							break;
+					}
+				})
+			});
+		});
+		var swiper = new Swiper('.swiper-container', {
+		        pagination: '.swiper-pagination',
+		        nextButton: '.swiper-button-next',
+		        prevButton: '.swiper-button-prev',
+		        paginationClickable: true,
+		        spaceBetween: 60,
+		        centeredSlides: true,
+		        autoplay: 3000,
+		        autoplayDisableOnInteraction: false
+		    });
+	</script>
+</html>
